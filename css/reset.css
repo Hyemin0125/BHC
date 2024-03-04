@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'SUITE';
+    src: url(../font/SUITE-Variable.woff2);}
+
+html{
+    font-family: 'SUITE';
+    color: #333;
+}
+*{margin: 0;
+    padding: 0;}
+a{text-decoration: none;
+color: inherit;}
+ul{list-style: none;}
+img{vertical-align: top;}

@@ -1,0 +1,129 @@
+@media all and (min-width:768px){
+
+    .bnWrap .mo{
+        display: none;
+    }
+
+    .bnWrap .pc{
+        display: block;
+        width: 100%;
+    }
+    /*mainbn*/
+
+    .oWrap>div>a{
+        width: 33.3vw;
+    }
+
+    .oWrap .delivery{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .oWrap>div>a h4{
+        padding: 0;
+        margin-bottom: 2px;
+    }
+
+    .oWrap>div>a p{
+        display: block;
+        font-size: 14px;
+    }
+    /* order */
+
+    .mWrap .tabBtn ul{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .mWrap .tabCon .rowWrap{
+        flex-wrap: unset;
+    }
+
+    /* best menu */
+
+    .news .nWrap .nRow{
+        display: flex;
+    }
+    /* news&event */
+
+    .franchise .txt p{
+        display: block;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .franchise .txt{
+        width: 600px;
+    }
+    /* franchise */
+
+    .sns{
+        padding: 120px 0 180px 0;
+    }
+
+    .sns::before{
+        width: 30%;
+        height: 110vh;
+    }
+
+    .sns .snsWrap{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .sns1{
+        display: block;
+        width: 40%;
+    }
+
+    .sns1 .yt{
+        position: relative;
+    }
+
+    .sns1 .yt .thum{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .sns .snsWrap .sns1 p{
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        font-weight: 500;
+        font-size: 18px;
+        color: #747474;
+    }
+
+    .sns2{
+        width: 40%;
+    }
+
+    .sns .snsWrap .sns2 .snsIcon{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        text-align: right;
+    }
+
+    .sns .snsWrap .sns2 .snsIcon li{
+        margin-bottom: 16px;
+    }
+
+    .sns .snsWrap .sns2 .insta{
+        width: 80%;
+    }
+    
+    .sns .snsWrap .sns2 p{
+        width: 80%;
+        padding-top: 0;
+    }
+    /* sns */
+
+    footer{
+        position: relative;
+        z-index: 99;
+    }
+
+}/* 768px */
